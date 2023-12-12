@@ -23,7 +23,7 @@ $body = "NEW MESSAGE\n--------------------------\n\n\nMessage: $message\n\n From
 $smtp = array(
     'host' => 'smtp.gmail.com',
     'username' => 'asqag.cutm@gmail.com',
-    'password' => 'ibji ymod bwgd zmdo',
+    'password' => 'xxxx xxxx xxxx xxxx',
     'port' => '465'
 );
 
