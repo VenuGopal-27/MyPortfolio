@@ -19,7 +19,7 @@ $body = "NEW MESSAGE\n--------------------------\n\n\nMessage: $message\n\n From
 
 // Uncomment below code if you want to use SMTP to send emails.
 // Make sure to enter your correct SMTP credentials
-/*
+
 $smtp = array(
     'host' => 'smtp.gmail.com',
     'username' => 'asqag.cutm@gmail.com',
@@ -33,7 +33,7 @@ ini_set("smtp_port", $smtp['port']);
 ini_set("sendmail_from", $receiving_email_address);
 ini_set("auth_username", $smtp['username']);
 ini_set("auth_password", $smtp['password']);
-*/
+
 
 // Send email
 $mailSuccess = mail($receiving_email_address, $subject, $body, $headers);
